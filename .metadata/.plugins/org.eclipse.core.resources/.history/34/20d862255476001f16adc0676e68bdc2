@@ -1,0 +1,13 @@
+package privatemodifiers;
+
+public class B {
+	  
+		 public static void main(String args[]){  
+		   A obj=new A();  
+		   obj.setData(500);
+		  // System.out.println(obj.data);//Compile Time Error  
+		  // obj.msg();//Compile Time Error  
+		   }
+	}
+
+

@@ -1,0 +1,28 @@
+package Automation.startSeleniumPractice;
+
+public abstract class Polymorphism {
+	
+	
+	public void sum(int a, int b){
+		int c= a+b;
+		System.out.println(c);
+	}
+	public void sub(int a, int b){
+		int c= a-b;
+		
+		System.out.println(c);
+	}
+	
+	
+	public abstract void sum1(int a, int b);
+//	public void sum1(int a, int b){
+//		int c= a+b;
+//		System.out.println(c);
+//	}
+//	public static void main(String[] args) {
+//		Polymorphism obj = new Polymorphism();
+		//obj.sum(3, 9.8);
+		
+		//System.out.println(c);
+	}
+

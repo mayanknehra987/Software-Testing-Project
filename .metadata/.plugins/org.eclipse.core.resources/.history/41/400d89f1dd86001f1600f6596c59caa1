@@ -1,0 +1,11 @@
+package Automation.startSeleniumPractice;
+
+public class po {
+	
+	
+	public static void main(String[] args) {
+		Polymorphism obj= new Polymorphism();
+		rt obj1 = new rt();
+	}
+
+}

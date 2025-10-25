@@ -1,0 +1,44 @@
+package seleniumwork;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class B {
+	
+	@BeforeMethod
+	public void createDriver(){
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\mayank.nehra\\Downloads\\TestCases\\chromedriver-win64\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://dynamic.vineretail.com/eRetailWeb/eRetailLogin.action?popup=true");
+		driver.manage().window().maximize();
+		
+		
+	}
+	@Test
+	public void handleFrame(){
+		driver.findElement(By.id("userOrgId")).sendKeys("vspl");
+}
+	@BeforeClass
+	public void testSetup()
+	{
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\mayank.nehra\\Downloads\\TestCases\\chromedriver-win64\\chromedriver.exe");
+	driver=new ChromeDriver();
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	driver.manage().window().maximize();
+
+	}
+
+	@BeforeMethod
+	public void openBrowser()
+	{
+	driver.get("https://www.browserstack.com/");
+	driver.findElement(By.id("signupModalButton")).click();
+	System.out.println("We are currently on the following URL" +driver.getCurrentUrl());
+	}
+
+}

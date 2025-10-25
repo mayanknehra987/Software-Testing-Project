@@ -1,0 +1,20 @@
+package testing;
+
+
+
+public class Test_001 {
+	
+	static int a=12;
+	static String b="mayank";
+	public static void main(String[] args) {
+		
+		int c=9;
+		System.out.println("Hello  =  " +c);
+		
+	}
+
+	
+	
+	
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="393" started-at="2025-01-23T11:17:10Z" finished-at="2025-01-23T11:17:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="393" started-at="2025-01-23T11:17:10Z" finished-at="2025-01-23T11:17:10Z">
+      <class name="verification.handle_payload.UsingGson_pojo.GSONSerialization">
+        <test-method status="PASS" signature="testNonBDDStylePOSTPositive()[pri:0, instance:verification.handle_payload.UsingGson_pojo.GSONSerialization@73cd37c0]" name="testNonBDDStylePOSTPositive" duration-ms="208" started-at="2025-01-23T16:47:10Z" finished-at="2025-01-23T16:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonBDDStylePOSTPositive -->
+      </class> <!-- verification.handle_payload.UsingGson_pojo.GSONSerialization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

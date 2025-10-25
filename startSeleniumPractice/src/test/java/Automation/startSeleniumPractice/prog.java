@@ -1,0 +1,52 @@
+package Automation.startSeleniumPractice;
+
+public class prog {
+	public static void main(String[] args) {
+		prog obj = new prog();
+		obj.findSecondElementInArray();
+	//	obj.revesreString();
+		obj.findThirdElementInString();
+		obj.occuranceOfAnyElementInString();
+	}
+		public void findSecondElementInArray(){
+		int arr[] = { 2, 4, 6, 8 };
+		int a = arr.length;
+		for (int i = 0; i < a; i++) {
+			if (i==3) {
+				//if (arr[i]==4){
+				System.out.println(arr[i]);
+				break;
+			}
+			}
+		}
+	
+//		public void revesreString(){
+//			String s = "a,b,c,d,e";
+//			System.out.println(s.length());
+//			for(int i=s.length()-1;i>=0;i--){
+//				char c = s.charAt(i);
+//				System.out.print(c);
+//			}
+//		}
+		public void findThirdElementInString(){
+			String s = "mayank";
+			for(int i=0;i<s.length();i++){
+				char c= s.charAt(s.indexOf('y'));
+				if (s.charAt(i)==c) {
+					System.out.println(s.charAt(i));
+					break;
+				}
+			}
+		}
+		public void occuranceOfAnyElementInString(){
+			String s = "mayank";
+			int count=0;
+			for(int i=0;i<s.length();i++){
+				char c= s.charAt(s.indexOf('m'));
+				if (s.charAt(i)==c) {
+					count = count+1;
+				}
+			}
+			System.out.println("occurance of given element is " + count);
+		}
+}

@@ -1,0 +1,14 @@
+package Automation.startSeleniumPractice;
+
+public class po {
+	
+	
+	public static void main(String[] args) {
+//		rt obj = new rt();
+//	obj.sum1(3, 5);
+		Polymorphism obj = new Polymorphism();
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package seleniumwork;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class B {
+	
+	@BeforeMethod
+	public void createDriver(){
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\mayank.nehra\\Downloads\\TestCases\\chromedriver-win64\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://dynamic.vineretail.com/eRetailWeb/eRetailLogin.action?popup=true");
+		driver.manage().window().maximize();
+		
+		
+	}
+
+}

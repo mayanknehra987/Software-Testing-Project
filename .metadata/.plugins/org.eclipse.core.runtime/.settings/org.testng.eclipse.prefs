@@ -1,0 +1,8 @@
+Filehandling_TestNG.outdir=/test-output
+Filehandling_TestNG.useProjectJar=true
+Filehandling_TestNG.watchResults=true
+None1.outdir=/test-output
+None1.useProjectJar=false
+eclipse.preferences.version=1
+testing.outdir=/test-output
+testing.useProjectJar=false

@@ -1,0 +1,10 @@
+package ArchitectureofSelenium.SeleniumFramework.tests;
+
+import org.testng.annotations.Test;
+
+public class TestVWOLogin {
+	
+	@Test
+	
+
+}

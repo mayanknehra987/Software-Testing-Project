@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28417" started-at="2024-10-21T12:10:24Z" finished-at="2024-10-21T12:10:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28417" started-at="2024-10-21T12:10:24Z" finished-at="2024-10-21T12:10:53Z">
+      <class name="testcases.web.SearchItem">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testcases.web.SearchItem@6fd02e5]" name="startBrowser" is-config="true" duration-ms="14698" started-at="2024-10-21T17:40:24Z" finished-at="2024-10-21T17:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="searchItem()[pri:0, instance:testcases.web.SearchItem@6fd02e5]" name="searchItem" duration-ms="13703" started-at="2024-10-21T17:40:39Z" finished-at="2024-10-21T17:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.web.SearchItem@6fd02e5]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2024-10-21T17:40:53Z" finished-at="2024-10-21T17:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.web.SearchItem -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

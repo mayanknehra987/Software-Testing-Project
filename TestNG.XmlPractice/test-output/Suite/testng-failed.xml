@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="annotationPractice.A">
+        <methods>
+          <include name="sum"/>
+          <include name="sub"/>
+        </methods>
+      </class> <!-- annotationPractice.A -->
+      <class name="annotationPractice.B">
+        <methods>
+          <include name="div"/>
+          <include name="mul"/>
+        </methods>
+      </class> <!-- annotationPractice.B -->
+      <class name="annotationPractice1.D">
+        <methods>
+          <include name="print1"/>
+          <include name="print"/>
+        </methods>
+      </class> <!-- annotationPractice1.D -->
+      <class name="annotationPractice1.C">
+        <methods>
+          <include name="Hello"/>
+          <include name="Hello1"/>
+        </methods>
+      </class> <!-- annotationPractice1.C -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

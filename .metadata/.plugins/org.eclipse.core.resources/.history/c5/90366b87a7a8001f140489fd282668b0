@@ -1,0 +1,5 @@
+package ArchitectureofSelenium.SeleniumFramework.tests;
+
+public class TestVWOLogin {
+
+}

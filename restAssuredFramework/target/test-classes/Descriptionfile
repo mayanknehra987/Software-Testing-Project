@@ -1,0 +1,26 @@
+//Framework- organize your code in such a manner , where we can achieve the maintanance, reusability, 
+// In Framework:- Data driven Testing
+				// Integration with CI/CD
+				// Enhanced Reporting (Logs)is important
+				// Proper folder structure
+				// Rest API (Generic in nature)
+				// Payload management 
+				// Flexibility and Scalability
+				// Proper environment (QA, Preprod) is important for good rest assured framework
+				
+// which framework we will use:- custom hybrid automation framework
+								//include( data driven + module driven +paylaod called generic framework)
+								//support rest api, jira api, twiter api, github api we will automate, soap automation support also, graph ql query also support
+// Tech Stack (explain your framework):- 1. Java and rest assured 
+				// maven and testng - testing framework build automation
+				// assertion - assertj, testng
+				// payload management- pojo classes
+				// reporting - allure 
+				// test data- json file, excel- apache poi, fillow
+				// linting and JDK , Git- sonarlint
+//pojo:- plain old java object
+		// normal class which is mapped with the payload that we are sending
+		// it will help in serialization and deserialization
+		// jsonschema2pojo using convert java object to java string(byte string)
+//Framework structure
+  

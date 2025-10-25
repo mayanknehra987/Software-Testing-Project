@@ -1,0 +1,13 @@
+package Automation.startSeleniumPractice;
+
+public class po {
+	
+	
+	public static void main(String[] args) {
+		rt obj = new rt();
+		obj.sum(3, 2);
+		obj.sub(3, 2);
+		obj.mul(3, b2);
+	}
+
+}

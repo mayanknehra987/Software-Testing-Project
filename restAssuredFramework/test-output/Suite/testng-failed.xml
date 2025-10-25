@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Assured.restAssuredFramework.Listeners.RetryListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Assured.restAssuredFramework.Tests.Integration.TCIntegrationFlowDoSelf">
+        <methods>
+          <include name="testVerifyBookingId" invocation-numbers="0 0 0 0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Assured.restAssuredFramework.Tests.Integration.TCIntegrationFlowDoSelf -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

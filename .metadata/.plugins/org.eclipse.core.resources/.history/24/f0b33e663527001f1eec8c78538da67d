@@ -1,0 +1,8 @@
+package testing;
+
+public class Test_002 {
+	
+	Test_001 obj1= new Test_001();
+	
+
+}

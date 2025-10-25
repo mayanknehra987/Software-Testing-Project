@@ -1,0 +1,21 @@
+package testing;
+
+
+
+public class Test_001 {
+	
+	static int a=12;
+	static String b="mayank";
+	public static void main(String[] args) {
+		
+		
+		
+		System.out.println("Hello  =  " +b);
+		
+	}
+
+	
+	
+	
+
+}

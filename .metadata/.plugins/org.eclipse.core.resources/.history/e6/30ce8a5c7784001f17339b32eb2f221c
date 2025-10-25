@@ -1,0 +1,31 @@
+package Automation.startSeleniumPractice;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Oct_07 {
+	public static WebDriver driver;
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().clearDriverCache().setup();
+		driver = new ChromeDriver();
+		driver.get("https://demo.opencart.com/");
+		driver.manage().window().maximize();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Desktops']")));
+		Actions act = new Actions(driver);
+		act.moveToElement(driver.findElement(By.xpath("//a[text()='Desktops']"))).perform();
+		act.contextClick(driver.findElement(By.xpath("//a[text()='Mac (1)']"))).perform();
+		//act.moveToElement(driver.findElement(By.xpath("//a[text()='Mac (1)']"))).contextClick().sendKeys(Keys.ARROW_DOWN).perform();
+		//act.sendKeys(Keys.ARROW_DOWN).perform();
+		act.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.RETURN).perform();
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;seleniumwork.C&apos; to &apos;Screenshotcode&apos;&#x0D;&#x0A;- Original project: &apos;Filehandling_TestNG&apos;&#x0D;&#x0A;- Original element: &apos;seleniumwork.C&apos;&#x0D;&#x0A;- Renamed element: &apos;seleniumwork.Screenshotcode&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;C&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;seleniumwork{C.java[C" matchStrategy="1" name="Screenshotcode" qualified="false" references="true" similarDeclarations="false" stamp="1728451683536" textual="false" version="1.0"/>
+</session>

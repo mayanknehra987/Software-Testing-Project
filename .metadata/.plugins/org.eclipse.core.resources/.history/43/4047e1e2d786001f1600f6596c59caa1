@@ -1,0 +1,10 @@
+package Automation.startSeleniumPractice;
+
+public class rt extends Polymorphism {
+	
+	public void mul(int a, int b){
+		int c= a*b;
+		return c;
+	}
+
+}

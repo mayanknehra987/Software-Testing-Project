@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;verification.jsonpath&apos; to &apos;verification.jsonpathextractresponse&apos;&#x0D;&#x0A;- Original project: &apos;restAssured.com&apos;&#x0D;&#x0A;- Original element: &apos;restAssured.com/src/test/java/verification.jsonpath&apos;&#x0D;&#x0A;- Renamed element: &apos;restAssured.com/src/test/java/verification.jsonpathextractresponse&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;verification.jsonpath&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;verification.jsonpath" name="verification.jsonpathextractresponse" qualified="false" references="true" stamp="1737527700521" textual="false" version="1.0"/>
+</session>
