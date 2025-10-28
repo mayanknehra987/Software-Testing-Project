@@ -9,7 +9,7 @@ public class C {
 	}
 	
 	public void print(int a) {
-		System.out.println("parent class method"  +a);
+		System.out.println("parent class class method"  +a);
 	}
 	
 }
