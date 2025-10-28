@@ -25,6 +25,7 @@ public class NonBddStyle {
 		rs.basePath("/-1").log().all();
 		rs.when().get();
 		rs.then().log().all().statusCode(200);
+		System.out.println("ghdnhfghb");
 
 	}
 }
